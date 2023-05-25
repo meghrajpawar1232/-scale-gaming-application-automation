@@ -17,15 +17,15 @@ check metric container and its port (9000)
 
 docker login
 docker build -t scale_down -f scale_down_dockerfile .
-docker tag scale_down:latest chaudharishubham2911/scale-down:latest
-docker push chaudharishubham2911/scale-down
+docker tag scale_down:latest meghrajpawar9923/scale-down:latest
+docker push meghrajpawar9923/scale-down
 
 
 #scale up build docker image
 
 docker build -t scale_up -f scale_up_dockerfile .
-docker tag scale_uplatest chaudharishubham2911/scale-up:latest
-docker push chaudharishubham2911/scale-up
+docker tag scale_uplatest meghrajpawar9923/scale-up:latest
+docker push meghrajpawar9923/scale-up
 
 
 #apply service account, role and rolebinding
