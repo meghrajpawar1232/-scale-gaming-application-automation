@@ -24,7 +24,7 @@ docker push meghrajpawar9923/scale-down
 #scale up build docker image
 
 docker build -t scale_up -f scale_up_dockerfile .
-docker tag scale_uplatest meghrajpawar9923/scale-up:latest
+docker tag scale_up:latest meghrajpawar9923/scale-up:latest
 docker push meghrajpawar9923/scale-up
 
 
